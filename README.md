@@ -1,7 +1,9 @@
-# Where Am I
-Robo Nano Degree: Where Am I robot localization project
+# Map My World
+Robo Nano Degree: SLAM project
 
-Using the robot and world from previous projects this one adds robot localization with Adaptive Monte Carlo Localization (AMCL)
+Using the robot and world from previous projects this one adds SLAM mapping to map an unknown environment.
+
+Instructions to run the project will be updated as it gets completed. These are the instructions from the localization project.
 
 To run, setup two terminals
 1. cd catkin_ws
@@ -17,4 +19,4 @@ Then do one of the following
 2. Setup another terminal and run (This option requires the teleop package as well)
   - rosrun teleop_twist_keyboard teleop_twist_keyboard.py  
 
-The Robot will find itself on the provided map by driving around and using AMCL with it's sensors to localize.
+The Robot will map it's environment and localize itself within that map by driving around and using SLAM.
